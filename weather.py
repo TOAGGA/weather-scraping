@@ -21,3 +21,4 @@ from ast import literal_eval
 data = literal_eval(data)
 print(str(data["weather"][0]["main"]) + "\n" + str(data["main"]["temp"]) + "\n" + data["name"] + " ," + data["sys"]["country"])
   
+# and then at the end just import scratchattach and stuff and do cloud variable stuff :)
